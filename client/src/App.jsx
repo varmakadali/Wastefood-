@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
 
-const API = 'http://localhost:5000';
+const API = 'https://messwatch-backend.onrender.com';
 
 function App() {
   const [entries, setEntries] = useState([]);
